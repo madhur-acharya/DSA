@@ -15,7 +15,8 @@
 - Submatrix sum is (full + topleft) - top - left.
 
 ### Code
-```class PrefixSumMat():
+```
+class PrefixSumMat():
     def __init__(self, mat):
         ROWS= len(mat)
         COLS= len(mat[0])
